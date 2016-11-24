@@ -1,0 +1,119 @@
+html {
+    font-size: 16px;
+    font-family: "Lucida Grande", sans-serif;
+    color: #444;
+    height: 100%;
+    width: 100%;
+    background: url(geometry.png) top left repeat #fff;
+}
+
+body {
+    margin: 3em 0;
+    padding: 0;
+}
+
+main {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 600px;
+}
+
+h1, h3 {
+    font-weight: 400;
+    width: 100%;
+    margin: 1em 0;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #9e7845;
+}
+
+.help {
+    margin: 3em 1em;
+    font-size: 0.7em;
+    color: #666;
+}
+
+table {
+    font-size: 0.8em;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+    table {
+        font-size: 1em;
+    }
+}
+
+
+table tr td {
+    background-color: #F2EFEA;
+    border: 1px solid #CBC9C7;
+    text-align: center;
+}
+
+table tr td:first-child {
+    padding: 0.5em;
+    font-weight: bold;
+    text-align: right;
+    width: 4em;
+}
+
+table tr td.l {
+    background-color: #fff;
+}
+
+table tr td.l.error {
+    background-color: #F6898A;
+}
+
+table tr td.l div {
+    display: none;
+}
+
+table.readonly tr td.l input {
+    display: none;
+}
+
+table.readonly tr td.l div {
+    display: block;
+}
+
+table form {
+    margin: 4em 0;
+}
+
+input {
+    text-align: center;
+    font-size: 1em;
+    background: none;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.desc {
+    margin: 0.4em 0;
+    font-size: 0.8em;
+    color: #aaa;
+}
+
+.button {
+    display: inline-block;
+    width: auto;
+    text-align: left;
+    padding: 1em;
+    color: #69F;
+    background-color: #D1E1FF;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    margin-top: 3em;
+}

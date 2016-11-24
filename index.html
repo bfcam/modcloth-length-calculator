@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=device-width">
+    <title>Modcloth Length Calculator</title>
+
+    <link href="style.css" media="all" rel="stylesheet" />
+</head>
+<body>
+    <main>
+        <h1>Modcloth Length Calculator</h1>
+        <h3>Use this to determine lengths for all sizes!</h3>
+        <div class="help">
+            <p>Use this when Modcloth only lists lengths for two sizes. For example, if Modcloth lists only lengths for XS and 2X, enter the length for XS and the length for 2X in the table below. You must enter two lengths.</p>
+            <p>After you've done this, hit the <em>Gimme The Rest!</em> button to determine the lengths for all of the other sizes! :)</p>
+        </div>
+        <form>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Size</td>
+                        <td class="s">XS</td>
+                        <td class="s">S</td>
+                        <td class="s">M</td>
+                        <td class="s">L</td>
+                        <td class="s">1X</td>
+                        <td class="s">2X</td>
+                    </tr>
+                    <tr>
+                        <td>Length</td>
+                        <td class="l">
+                            <input type="number" step="0.5" value=""></input>
+                            <div></div>
+                        </td>
+                        <td class="l">
+                            <input type="number" step="0.5" value=""></input>
+                            <div></div>
+                        </td>
+                        <td class="l">
+                            <input type="number" step="0.5" value=""></input>
+                            <div></div>
+                        </td>
+                        <td class="l">
+                            <input type="number" step="0.5" value=""></input>
+                            <div></div>
+                        </td>
+                        <td class="l">
+                            <input type="number" step="0.5" value=""></input>
+                            <div></div>
+                        </td>
+                        <td class="l">
+                            <input type="number" step="0.5" value=""></input>
+                            <div></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="desc">All measurements in inches.</div>
+            <input class="button" type="submit" value="Gimme The Rest!"></input>
+        </form>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="calc.js"></script>
+</body>
